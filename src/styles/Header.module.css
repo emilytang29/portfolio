@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@font-face {
+    font-family: 'Lemon Tuesday';
+    src: url(../assets/Lemon\ Tuesday.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Quentin';
+    src: url(../assets/Quentin.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+  
+.logo {
+  font-family: 'Quentin', cursive;
+  font-size: 20px;
+  top: 25px;
+  position: absolute;
+  right: 355px;
+  font-size: 20px;
+  font-family: 'Quentin', sans-serif;
+  color: #000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000; 
+}
+
+.projectsHeader {
+  position: absolute;
+  right: 235px;
+  text-decoration: none;
+  color: #000; 
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'Inter', sans-serif;
+}
+
+.projectsHeader:hover {
+  background: linear-gradient(to top, #E8DEF7 50%, transparent 50%);
+  color: #000; 
+  text-decoration: none; 
+}
+
+.contactHeader {
+  position: absolute;
+  right: 115px;
+  text-decoration: none;
+  color: #000; 
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'Inter', sans-serif;
+}
+
+.contactHeader:hover {
+  background: linear-gradient(to top, #afe3ff 50%, transparent 50%);
+  color: #000; 
+  text-decoration: none; 
+}

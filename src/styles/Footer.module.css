@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@font-face {
+    font-family: 'Quentin';
+    src: url(../assets/Quentin.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 0.9rem;
+    color: #333;
+    border-top: 4px solid black; 
+}
+
+.name {
+    position: absolute;
+    bottom: 25px;
+    left: 115px;
+    font-size: 20px;
+    font-family: 'Quentin', sans-serif;
+    color: #000;
+}
+  
+.linkedin {
+    position: absolute;
+    right: 125px;
+    bottom: 29px;
+    text-decoration: none;
+    color: #000; 
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+}
+  
+.linkedin:hover {
+    background: linear-gradient(to top, #f4d6e1 50%, transparent 50%);
+    color: #000; 
+    text-decoration: none; 
+}
+
+.github {
+    position: absolute;
+    right: 250px;
+    bottom: 29px;
+    text-decoration: none;
+    color: #000; 
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+}
+
+.github:hover {
+    background: linear-gradient(to top, #afe3ff 50%, transparent 50%);
+    color: #000; 
+    text-decoration: none; 
+}
+
+.instagram {
+    position: absolute;
+    right: 375px;
+    bottom: 29px;
+    text-decoration: none;
+    color: #000; 
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Inter', sans-serif;
+}
+
+.instagram:hover {
+    background: linear-gradient(to top, #ffea9d 50%, transparent 50%);
+    color: #000; 
+    text-decoration: none; 
+}

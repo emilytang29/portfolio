@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@font-face {
+    font-family: 'Quentin';
+    src: url(../assets/Quentin.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.contactForm {
+    display: flex; /* Use flexbox for horizontal alignment */
+    align-items: flex-start; /* Align text and inputs at the top */
+    justify-content: space-between; /* Space between left text and form */
+    gap: 20px; /* Add spacing between the two sections */
+    max-width: 800px; /* Set a max width for the form */
+    margin: 0 auto; /* Center the form */
+    padding: 20px;
+    
+  }
+  
+  .contactText {
+    flex: 1; 
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: -25px;
+  }
+
+  .contactText img {
+    margin-top: 35px;
+  }
+
+  .contactText p {
+    background: linear-gradient(to top, #E8DEF7 50%, transparent 50%);
+    color: #000; 
+    text-decoration: none;
+    display: inline; 
+  }
+  
+  
+  .formFields {
+    flex: 2; 
+    display: flex;
+    flex-direction: column; /* Stack inputs vertically */
+    gap: 15px; /* Add spacing between input fields */
+  }
+  
+  .formFields input,
+  .formFields textarea {
+    resize: none;
+    width: 100%; 
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 2px solid #000; 
+    font-family: "Inter", sans-serif;
+  }
+
+.nameInput {
+  background: linear-gradient(to top, #f4d6e1 50%, transparent 50%);
+  color: #000; 
+  text-decoration: none; 
+  outline: white;
+}
+
+.emailInput {
+  background: linear-gradient(to top, #ffea9d 50%, transparent 50%);
+  color: #000; 
+  text-decoration: none; 
+  outline: white;
+}
+
+.messageInput {
+  background: linear-gradient(to top, #afe3ff 50%, transparent 50%);
+  color: #000; 
+  text-decoration: none; 
+  outline: white;
+}
+
+.messageInput:focus {
+  background-color: white;
+  background: none; /* Remove the gradient on focus */
+}
+
+  .formFields button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    width: 20%;
+    margin-left: 80%;
+    transform: skewY(5deg);
+  }
+  
+  .formFields button:hover {
+    background-color: #333;
+  }
+  
+  .feedback {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: green;
+  }
+
+.arrow {
+  transform: rotate(100deg);
+  margin-top: 15px;
+  margin-left: 35px;
+  width: 100px;
+  height: auto;
+}
+  
+
+  
+  
